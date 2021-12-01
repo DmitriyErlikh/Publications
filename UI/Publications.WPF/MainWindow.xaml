@@ -1,0 +1,14 @@
+﻿<Window x:Class="Publications.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Publications.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,560,319">
+        <TextBlock Text="Числа Фибоначчи" Name="FibTextBlock" Margin="70,173,-468,-160" TextAlignment="Center" FontSize="20"/>
+        <TextBlock Text="Таймер" Name="TimerTextBlock" Margin="279,93,-279,-8" TextAlignment="Center" FontSize="20"/>
+        <Button Content="Start" Margin="279,368,-279,-318" Click="Button_Click_1"/>
+    </Grid>
+</Window>
